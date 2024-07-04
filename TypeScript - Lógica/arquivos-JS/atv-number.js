@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const PI = 3.14;
+const y1 = PI;
+let taxaJuros = 0.05;
+taxaJuros = taxaJuros * 100;
+console.log("A taxa de juros é de", taxaJuros, "%");
+const x = 10;
+const y2 = 20;
+console.log(x + y2);
+console.log(x - y2);
+console.log(x * y2);
+console.log(x / y2);

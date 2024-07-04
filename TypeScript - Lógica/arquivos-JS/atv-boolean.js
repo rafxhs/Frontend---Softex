@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const estaChovendo = true;
+const verdadeiro = true;
+const falso = false;
+const temperatura = 20;
+console.log(temperatura > 30);
+const resultado = 10 > 5;
+console.log(resultado);
+const teste = 25 < 15;
+console.log(teste);

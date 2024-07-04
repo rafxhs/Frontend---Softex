@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const nome = "Rafaela";
+console.log(nome);
+const frase1 = "Me chamo";
+console.log(frase1.length);
+const palavra = "R, A, F, E, L";
+console.log(palavra[0]);
+const frase2 = "As letras que há no meu nome são:";
+console.log(frase2.toUpperCase(), palavra);
+let endereco = "Rua Santa Rosa, 100";
+endereco = "Rua Alberto Figueiro";
+console.log(endereco);

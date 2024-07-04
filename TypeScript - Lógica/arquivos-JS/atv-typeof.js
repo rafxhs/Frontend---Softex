@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const numero = 10;
+console.log(typeof numero);
+const texto = "Nome";
+console.log(typeof texto);
+const booleano = true;
+console.log(typeof booleano);
+const array = [];
+console.log(typeof array);
+const objeto = {};
+console.log(typeof objeto);
+const nulo = "null";
+console.log(typeof nulo);
