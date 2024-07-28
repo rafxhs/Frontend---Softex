@@ -1,0 +1,1 @@
+// 7. Desenvolva um programa que leia um caractere e verifique se ele é uma vogal ou uma consoante.
