@@ -1,0 +1,2 @@
+// 12. Crie um programa que leia uma sequência de números inteiros do usuário e exiba a média dos números digitados. 
+//O programa deve parar de ler quando o usuário digitar o número -1 utilizando o while.

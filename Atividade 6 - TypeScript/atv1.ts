@@ -1,0 +1,1 @@
+// 1. Enumere as diferenças entre os comandos "for" e "while".

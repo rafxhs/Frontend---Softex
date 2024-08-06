@@ -1,0 +1,2 @@
+// 23. Elabore um programa que leia uma sequência de números inteiros do usuário e exiba o menor valor digitado que seja positivo e ímpar. 
+// O programa deve parar de ler quando o usuário digitar o número 0 utilizando o while.
