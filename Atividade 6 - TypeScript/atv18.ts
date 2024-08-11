@@ -1,2 +1,0 @@
-// 18. Crie um programa que leia uma sequência de números inteiros do usuário e exiba quantos números pares e quantos números ímpares 
-// foram digitados. O programa deve parar de ler quando o usuário digitar o número 0 utilizando o while.
