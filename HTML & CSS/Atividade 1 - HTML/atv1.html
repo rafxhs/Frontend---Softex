@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao HTML - Frontend Softex</title
+
+</head>
+<body>
+    <h1 style="text-align: center;">Aula 1 - Introdução ao HTML</h1>
+
+    <section>
+        <h3>Conhecendo o HTML e sua estrutura básica </h3>
+
+        <ol>
+            <li>O que é o HTML e qual é o seu papel na construção de páginas web? Descreva brevemente a estrutura básica de um documento HTML.
+                <ul>
+                    <br>
+                    <li>
+                        O HTML é uma linguagem de marcação de hipertexto utilizada para construir uma página web, seu principal papel é a estruturação de conteúdo.
+                        O documento HTML é composto por a declaração do tipo de documento com o <q>!DOCTYPE html</q>, e depois a abertura da tag <q>html e dentro da
+                        própria tag, o atributo lang = "" e dentro dos parênteses o idioma utilizado</q>. Por fim, mas que é de grande importância dentro da tag html,
+                        há a tag <q>head e body</q>, a tag head responsável por ter dentro dela metadados e codificação de caracteres e a body toda a parte 
+                        vísivel da página.
+                    </li>
+                    <br>
+                </ul>
+            </li>
+            <li>Como o HTML se relaciona com outras tecnologias da web, como o CSS e o JavaScript? Como essas três tecnologias trabalham em conjunto para criar 
+                páginas web interativas e estilizadas?
+
+                <ul>
+                    <br>
+                    <li>A relação entre essas três tecnologias ocorre pela possibilidade de usar a linguagem JavaScript dentro do HTML utilizando a tag <q>script</q>
+                        ou <q>linkar</q> um arquivo JS através também da tag <q>script</q>, só que utilizando o atributo <q>src =""</q> e colocar dentro desse atributo
+                        o caminho para o arquivo JS. Enquanto que, com o CSS é possível utilizá-lo de forma inline, interno (através da tag <q>style</q>) ou externo
+                        (por meio da tag <q>link</q>).
+                        <br>
+                        Essas três tecnologias são de grande importância para construção de uma página web, seus trabalhos são impregados da seguinte maneira: o HTML
+                        é responsável por toda a estruturação de conteúdo, desde textos, imagens, formulários, etc. Já o CSS é responsabilizado por do layout e design
+                        de uma página, utilizando através de suas regras os seletores (de tipo, classe ou id) e deles colocando suas propriedades e seus respectivos
+                        valores. Tendo todo o conteúdo e o seu design pronto, o JavaScript é encarregado por adicionar interatividade aos elementos da página, como
+                        também possibilitar a manipulação do DOM (Document Object Model).
+                    </li>
+                    <br>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <section>
+        <h3>Identificando tags HTML básicas</h3>
+
+            <ol>
+                <li>Cite três tags HTML básicas e explique o propósito de cada uma delas. Dê exemplos de situações em
+                    que você as usaria ao construir uma página web.
+                    <ul>
+                        <br>
+                        <li><q>h1</q>, <q>p</q> e <q>img</q>, utilizaria a tag <q>h1</q> para colocar o tópico principal e de destaque que teria no meu conteúdo da página, e após isso,
+                            teria a tag <q>img</q> que teria alguma imagem associada ao tópico abordado, e por fim a tag <q>p</q> para colocar alguma frase ou texto corrido contendo 
+                            informações sobre o meu respectivo tópico.
+                        </li>
+                        <br>
+                    </ul>
+                </li>
+                <li>Além das tags mencionadas, qual é a importância das tags de listagem, como <q>ul e ol</q>, no
+                    contexto da estruturação de conteúdo em uma página? Dê exemplos de quando você escolheria
+                    uma sobre a outra.
+
+                    <ul>
+                        <br>
+                        <li>As tags de listagem são de grande importância para a construção de listas, sejam elas, <q>ol</q> ordenadas, ou <q>ul</q>não ordenadas. Como exemplo será citado a forma que foi construído esse documento html, pois está sendo utilizado os dois tipos de listagem, 
+                            nessa atividade há 7 tópicos sobre o html e cada tópico é composto por 2 perguntas, foi estruturado da seguinte maneira: para as perguntas
+                            foi criado listas ordenadas <q>ol</q> e dentro dessas listas ordenadas foram inseridas listas não ordenadas <q>ul</q> para colocar as respostas.
+                        </li>
+                        <br>
+                    </ul>
+                </li>
+            </ol>
+    </section>
+
+    <section>
+        <h3>Vinculando páginas, arquivos e âncoras</h3>
+
+            <ol>
+                <li>Como a tag <q>a</q> é utilizada para criar links em HTML? Explique como você pode vincular para outras
+                    páginas, para arquivos locais e criar âncoras dentro de uma página.
+                    <ul>
+                        <br>
+                        <li>A tag <q>a</q> criar links usando o atributo <q>href = ""</q> dentro da sua tag de abertura e dentro da própria tag estará algum texto que levará o usuário para o caminho desejado. O vínculo para outras páginas ocorre ao utilizar o atributo <q>href = "aqui será colocado a URL de algum site"</q>dentro de sua abertura e dentro da própria tag terá algum texto.
+                            Já a segunda maneira de vincular é para arquivos locais, colocando dentro dentro de seu atributo <q>href = ""</q> o diretório ou subdiretório que estará com algum tipo de arquivo. E por último, há também a criação de âncoras dentro da página, que é feito por meio da definção de um ID em um elemento de destino e usa o <q>href = ""</q> para referenciar esse id.
+                        </li>
+                        <br>
+                    </ul>
+                </li>
+                <li>Além do atributo href, quais outros atributos importantes a tag <a> pode ter? Como o atributo
+                    target pode ser usado para controlar como o link é aberto pelo navegador?
+
+                    <ul>
+                        <br>
+                        <li>Há também outros atributos como, <q>target</q> que define onde o link será aberto, <q>download</q> indica que o link é um download, <q>rel</q> utilizado para marcar um link de saída dentro de um tipo específico de conteúdo, etc.
+                            O atributo <q>target</q> possui seus valores que serão a chave para o controle de como o link será aberto, há o <q>target="_blank"</q> que serve para abrir o link numa nova aba no navegador, o <q>target="_blank"</q> abre o link 
+                            na mesma aba ou janela em que o link foi clicado, o <q>target="_blank"</q> abre o link na janela inteira e remove qualquer <q>iframe ou frame</q>, entres outros tipos de valores para o atributo <q>target</q> que possibilitam 
+                            o controle de onde será a abertura dos links pelo browser.
+                        </li>
+                        <br>
+                    </ul>
+                </li>
+            </ol>
+    </section>
+
+    <section>
+        <h3>Incorporando imagens e mídias</h3>
+
+            <ol>
+                <li>Descreva a diferença entre os atributos src e alt em relação à tag <q>img</q>. Por que é importante
+                    fornecer um atributo alt adequado para imagens?
+                    <ul>
+                        <br>
+                        <li>O atributo <q>src (source)</q> é obrigatório para tag <q>img</q> pois é usado para colocar o caminho do arquivo da imagem, já o atributo <q>alt</q> serve para definir um texto que descreve a imagem.
+                            É importante fornercer o atributo <q>alt</q> de forma adequada, pois torna a página inclusiva e acessível para pessoas com problemas visuais ou até mesmo em caso do qual a imagem não é carregada, 
+                            tendo uma descrição adequada faz com que seja mantindo por parte do usuário a compreensão do conteúdo da página.
+                        </li>
+                        <br>
+                    </ul>
+                </li>
+                <li>Além de imagens, quais outros tipos de mídia podem ser incorporados em uma página HTML?
+                    Como você pode garantir que a mídia incorporada seja responsiva e se ajuste bem em diferentes
+                    dispositivos? 
+
+                    <ul>
+                        <br>
+                        <li>Além da tag <q>img</q> que possibilita colocar imagens num documento HTML, há também as tags de multimídia <q>video</q>, <q>audio</q> e <q>figure</q>.
+                            Para garantir que a mídia incorporada seja responsiva, é necessário usufruir de técnicas de responsividade (ex.: viewports, media queries, unidades
+                            relativas ou flebox) para tornar não só imagens responsivas como qualquer outro tipo de mídia.
+                        </li>
+                        <br>
+                    </ul>
+                </li>
+            </ol>
+    </section>
+
+    <section>
+        <h3>Criando tabelas básicas </h3>
+
+            <ol>
+                <li>Quais são as principais tags usadas para criar tabelas em HTML? Explique a diferença entre as tags
+                    <q>th e td</q>, e quando você as usaria.
+                    <ul>
+                        <br>
+                        <li>As principais tags para construir uma tabela são: <q>table</q>, <q>th</q>, <q>tr</q> e <q>td</q>. 
+                            Apesar de ambas as tags <q>th</q> e <q>td</q></li> serem utilizadas para criar células em uma tabela, 
+                            a diferença entre as duas é que a tag <q>th</q> é usada para definir células do cabeçalho da tabela,
+                            já o <q>td</q> trata-se da célula de dados de uma tabela. Caso eu fosse construir uma tabela, após ter 
+                            definido uma tabela com a tag <q>table</q>, dentro do <q>tr</q> eu usaria o <q>th</q> colocar todas as 
+                            células dessa linha do tipo título, e logo após, as demais seriam dados e utilizaria a tag <q>td</q>.
+                        <br>
+                    </ul>
+                </li>
+                <li>Embora tabelas sejam usadas para exibir dados tabulares, às vezes é recomendado evitá-las em
+                    favor de outras formas de apresentação de dados. Por quê? E quais são os cenários em que as
+                    tabelas são apropriadas?
+                    <ul>
+                        <br>
+                        <li>Sabendo que o uso das tabelas são melhores para dados tabulares, é apropriado utilizar tabelas para representar dados de um banco de dados, já em alguns casos como, ter 
+                            um site que seja responsivo não é indicado utilizar tabelas, pois esses dados não são tabulares e tornar uma tabela responsiva para todos os tipos de dispositivos 
+                            é algo mais difícil (principalmente para dispositivos móveis).
+                        </li>
+                        <br>
+                    </ul>
+                </li>
+            </ol>
+
+        <h4>Exemplo de uma tabela:</h4>
+            <table border="1">
+
+                <tr>
+                    <th>Aluno</th>
+                    <th>Redes de Computadores</th>
+                    <th>Lógica de Programação</th>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>8,5</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Felipe</td>
+                    <td>10</td>
+                    <td>7,5</td>
+                </tr>
+        </table>
+    </section> 
+
+    <section>
+        <h3>Criando formulários </h3>
+
+            <ol>
+                <li>Como a tag <q>form</q> é utilizada para criar formulários em HTML? Cite pelo menos três tipos
+                    diferentes de campos de entrada <q>input</q> que podem ser usados em um formulário.
+                    <ul>
+                        <br>
+                        <li>A tag <q>form</q> serve como um contêiner para todos os elementos do formulário, como campos de entrada, botões e etiquetas. 
+                            Há vários tipos de input usados em um formulário, os três tipos escolhidos como exemplo foram: <q>text</q>, <q>radio</q> e <q>date</q>. 
+                            Logo abaixo da última pergunta há um exemplo de formulário.
+                        </li>
+                        <br>
+                    </ul>
+                </li>
+                <li>Além dos campos de entrada, quais outros elementos podem ser incluídos em um formulário para
+                    melhorar a usabilidade e a experiência do usuário?
+
+                    <ul>
+                        <br>
+                        <li>Há diversos elementos que podem ser inseridos num formulário para melhorá-lo, como a tag <q>label</q>, <q>button</q>, <q>select</q>, <q>textarea</q>, etc. </li>
+                        <br>
+                    </ul>
+                </li>
+            </ol>
+
+        <h4>Exemplo de um formulário:</h4>
+        
+            <form>
+                <fieldset>
+                    <label><strong>Nome completo</strong></label><br>
+                        <input type="text" name="nome completo"><br>
+
+                    <label><strong>Gênero</strong></label><br>
+                        <label>
+                            <input type="radio" name="genero" value="feminino">Feminino
+                        </label>
+                        <label>
+                            <input type="radio" name="genero" value="masculino">Masculino
+                        </label>
+                        <label>
+                            <input type="radio" name="genero" value="nenhum">Prefiro não informar
+                        </label><br>
+                    
+                        <label><strong>Data de Nascimento</strong></label>
+                            <input type="date">
+                </fieldset>
+            </form>
+    </section>
+
+    <section>
+        <h3>Técnicas avançadas de estruturação com elementos HTML5 semânticos</h3>
+
+            <ol>
+                <li>O que são elementos HTML5 semânticos e por que são importantes na estruturação de uma
+                    página? Cite três exemplos de elementos semânticos e explique quando você os usaria.
+                    <ul>
+                        <br>
+                        <li>A utilização de elementos semânticos do HTML5 (ex.: <q>header</q>, <q>nav</q>, <q>main</q>, <q>footer</q>, etc.) durante a criação de um documento HTML deixa o código bem estruturado e o torna de fácil legibilidade para um desenvolvedor. 
+                            Além disso, usar elementos semânticos possibilita os algoritmos de indexação em sites de busca e as tecnologias assistivas a uma melhor compreensão do contexto e conteúdo do seu site entregando uma melhor experiência para os usuários.</li>
+                        <br>
+                    </ul>
+                </li>
+                <li>Além da semântica, como os elementos HTML5 podem afetar a acessibilidade das páginas web? Por
+                    que é fundamental considerar a acessibilidade ao escolher elementos de estruturação?
+
+                    <ul>
+                        <br>
+                        <li>Os elementos semânticos impactam a acessibilidade de forma positiva, pois é através dos elementos semânticos que um website torna-se de melhor compreensão por sua estrutura ficar mais organizada
+                            e apresentar clareza dos conteúdos expostos, ajudando as tecnologias assistivas a interpretar todo o conteúdo e oferecer uma navegação mais eficiente. É fundamental considerar a acessibilidade 
+                            ao escolher elementos semânticos, devido a entrega de melhoria da experiência do usuário, inclusão, melhor manutenção do código e melhoria na indexação.
+                        </li>
+                        <br>
+                    </ul>
+                </li>
+            </ol>
+    </section>
+</body>
+</html>
